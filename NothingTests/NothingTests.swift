@@ -10,6 +10,17 @@ import XCTest
 @testable import Nothing
 
 class NothingTests: XCTestCase {
+    var converter: Converter!
+    
+    override func setUp() {
+      super.setUp()
+      converter = Converter()
+    }
+    
+    override func tearDown() {
+      converter = nil
+      super.tearDown()
+    }
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -29,6 +40,11 @@ class NothingTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testConverionForTwo() {
+        let result = converter.convert(2)
+        XCTAssertEqual(result, "II", "Conversion for 2 is incorrect")
     }
 
 }

@@ -15,6 +15,7 @@
 		602361C42670D2DB00836301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602361C22670D2DB00836301 /* LaunchScreen.storyboard */; };
 		602361CF2670D2DB00836301 /* NothingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602361CE2670D2DB00836301 /* NothingTests.swift */; };
 		602361DA2670D2DB00836301 /* NothingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602361D92670D2DB00836301 /* NothingUITests.swift */; };
+		602361E8267105D700836301 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602361E7267105D700836301 /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		602361D52670D2DB00836301 /* NothingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NothingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		602361D92670D2DB00836301 /* NothingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NothingUITests.swift; sourceTree = "<group>"; };
 		602361DB2670D2DB00836301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602361E7267105D700836301 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				602361C22670D2DB00836301 /* LaunchScreen.storyboard */,
 				602361C52670D2DB00836301 /* Info.plist */,
 				602361BF2670D2DB00836301 /* Preview Content */,
+				602361E7267105D700836301 /* Converter.swift */,
 			);
 			path = Nothing;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				602361B82670D2D900836301 /* AppDelegate.swift in Sources */,
 				602361BA2670D2D900836301 /* SceneDelegate.swift in Sources */,
+				602361E8267105D700836301 /* Converter.swift in Sources */,
 				602361BC2670D2D900836301 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
